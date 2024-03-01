@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Enter the task</h1>
+        <label for="user-input">Task: </label><br>
+
+        <input type="text" id="user-input">
+
+        <button onclick="AddTask()">Add task</button>
+        <!--<button onclick="Delete()">Delete</button>!-->
+    </div>
+    <div id="task-container">
+        <div id="ind-task">
+            <h2>Task 1:</h2>
+            <button onclick="DeleteTask(event)">Delete</button>
+        </div>
+    </div>
+</body>
+
+</html>
